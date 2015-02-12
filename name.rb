@@ -1,5 +1,5 @@
-puts 'What is your name?'
+print 'What is your name?'
 
-name = gets.chomp
+name = gets.chomp.capitalize
 
 puts "Nice to meet you #{name}"
